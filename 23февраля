@@ -1,3 +1,4 @@
+<html>
 <header>
     <title>
         23 Февраля - День защитника Отечества
@@ -21,3 +22,42 @@
         © 2023 День защитника Отечества
     </p>
 </footer>
+</html>
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px 0;
+}
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+.content {
+    padding: 20px;
+}
+.content img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+.content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+footer {
+    background-color: #004080;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+</style>
