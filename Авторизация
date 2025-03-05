@@ -1,0 +1,57 @@
+<html>
+<link rel="stylesheet" href="avtorizacia.css">
+<body>
+    <div>
+        <h1>
+            Авторизация
+        </h1>
+        <p>
+            Логин
+        </p>
+        <input class="N">
+        </input>
+        <p>
+            Пароль
+        </p>
+        <input class="N">
+        </input>
+        <p>
+            
+        </p>
+        <button>
+            Войти
+        </button>
+    </div>
+</body>
+</html>
+<style>
+body {
+    font-family: "Arial";
+    text-align: center;
+}
+div {
+    border: solid #2196A3;
+    border-radius: 10px;
+    margin: 250px;
+    padding: 30px;
+    width: 400px;
+    color: #2196A3;
+}
+p {
+    font-size: 25px;
+}
+
+ button {
+    background-color: #fff;
+    border: solid #2196A3;
+    border-radius: 5px;
+    color: #2196A3;
+    padding: 10px 15px;
+    font-size: 17px;
+ }    
+.N {
+    border: solid #2196A3;
+    border-width: 5px;
+    padding: 10px;
+}
+</syle>
