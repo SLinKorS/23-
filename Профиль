@@ -1,0 +1,157 @@
+<html>
+<link rel="stylesheet" href="profile.css">
+<header>
+    <h1 class='d'>
+            Личный кабинет
+        <div>
+        <button>
+            Лента
+        </button>
+        <button >
+            Новое Действие
+        </button>
+        </div>
+    </h1>
+</header>
+<body>
+    <div class="b">
+        <h1 class="s">
+            Иван 
+        </h1>
+        <p class="w">
+            пользователь
+        </p>
+        <p>
+            Профиль
+        </p>
+        <p >
+            📊Статистика
+        </p>
+        <p >
+            ⚙Настройки
+        </p>
+    </div>
+    <div class="p">
+        <h1 class="d">
+            Статистика
+        </h1>
+        <p class="q">
+            Просмотры: 1234
+        </p>
+        <p class="q">
+            Посетители: 345
+        </p>
+    </div>
+    <div class="h">
+        <h1 class="d">
+            Последние действия
+        </h1>
+        <p class="q">
+            Обновление профиля
+        </p>
+        <p class="q">
+            Новый вход в систему
+        </p>
+    </div>
+    <div class="m">
+        <h1 class="s">
+            Активность
+        </h1>
+    </div>
+</body>
+</html>
+<style>
+.d {
+    background: #fff;
+    padding: 30px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Arial";
+    font-size: 35px;
+    color: #2196F3;
+    border: solid #2196F3;
+    border-radius: 10px;
+    margin: 0px;
+}
+button {
+    background-color: #fff;
+    border: solid #2196F3;
+    border-radius: 5px;
+    color: #2196F3;
+    padding: 10px 15px;
+    font-size: 17px;
+   
+}
+.q {
+    border-radius: 100%;
+    margin: 10px;
+
+}
+.b {
+    border: solid #2196F3;
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 30px 30px;
+    width: 300px;
+    height: 37em;
+    align-items: center;
+   
+}
+.s {
+    font-family: "Arial";
+    text-align: center;
+    font-size: 25px;
+   
+}
+.w {
+    font-size: 20px;
+    font-family: "Arial";
+    text-align: center;
+}
+body {
+    font-family: "Arial";
+}
+.p {
+   border: solid #2196F3;
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 30px 30px;
+    width: 300px;
+    height: 13em;
+    align-items: center;
+    position: absolute;
+    top: 124px;
+    left: 400px;
+}
+.q {
+    font-size: 20px;
+    font-family: "Arial";
+    text-align: left;
+}
+.h {
+   border: solid #2196F3;
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 30px 30px;
+    width: 300px;
+    height: 13em;
+    align-items: center;
+    position: absolute;
+    top: 124px;
+    left: 795px;
+}
+.m {
+   border: solid #2196F3;
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 30px 30px;
+    width: 695px;
+    height: 19em;
+    align-items: center;
+    position: absolute;
+    top: 410px;
+    left: 400px;
+}
+</style>
