@@ -1,0 +1,39 @@
+<html>
+<header>
+    <h3>
+        кот велес
+    </h3>
+    <div class="carousel">
+        <div class="carousel-wrapper">
+            <section>
+                <h2>
+                    Описание картинки
+                </h2>
+            </section>
+                <footer>
+                    <h1>
+                        1,9 млн❤
+                    </h1>
+                </footer>
+        </div>
+    </div>
+</header>
+</html>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.header {
+    font-size: 70px;
+}
+.carousel {
+    overflow: scroll;
+    width: 70%;
+    white-space: nowrap;
+}
+.carousel-wrapper {
+    display: inline-block;
+}
+</style>
