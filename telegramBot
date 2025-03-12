@@ -1,0 +1,20 @@
+import asyncio
+from aiogram import Bot, Dispather, types
+from aiogram.fillters import Command
+bot = Bot(token="7725810416:AAEb1kG3SVxluUS1x1X4z0QMiu8lT5bw9MM")
+dp = Dispather()
+@dp.messeage(command("Start"))
+async def cmd_start(message: types.message):
+    await message.answer("Привет, ты ввел команду /start")
+@dp.message(command("echo"))
+async def cms_echo(message: type.message):
+    text = message.text.replace("/echo", "").strip()
+    if text:
+        await message.answer(text)
+    else:
+        await message.answer("Пожалуйста, добавьте текст к сообщению")
+async def main():
+    await dp.start_polling(bot)
+if _name_=="_main_":
+    print("Бот начал работать")
+    asyncio.run(main())
